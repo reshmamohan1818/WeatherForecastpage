@@ -1,0 +1,26 @@
+{
+  "name": "next-weather-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "increase-memory-limit": "^1.0.7",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "next": "12.0.3",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3"
+  }
+}
